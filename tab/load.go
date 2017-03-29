@@ -31,22 +31,22 @@ func Load(filepath string) (Tab, error) {
 
 		start, end := strings.Index(l, "["), strings.Index(l, "]")
 		if start < 0 || end < 0 {
-			return nil, fmt.Errorf("malformed voice on line #%d", i)
+			return nil, fmt.Errorf("malformed voice on line #%d", i+1)
 		}
 
 		name := strings.TrimSpace(l[:start])
 		if len(name) == 0 {
-			return nil, fmt.Errorf("missing voice name on line #%d", i)
+			return nil, fmt.Errorf("missing voice name on line #%d", i+1)
 		}
 		if !isValidVoice(name) {
-			return nil, fmt.Errorf("unknown voice %q on line #%d", name, i)
+			return nil, fmt.Errorf("unknown voice %q on line #%d", name, i+1)
 		}
 		if _, ok := tab[name]; ok {
-			return nil, fmt.Errorf("multiple declarations of %q on line #%d", name, i)
+			return nil, fmt.Errorf("multiple declarations of %q on line #%d", name, i+1)
 		}
 		pattern := removeSpaces(l[start+1 : end])
 		if len(pattern) == 0 {
-			return nil, fmt.Errorf("empty pattern on line #", i)
+			return nil, fmt.Errorf("empty pattern on line #", i+1)
 		}
 
 		tab[name] = []rune{}
