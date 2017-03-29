@@ -42,7 +42,7 @@ loaded and played simultaneously to create rythms. Here's an example file:
     snaredrum [_ x X _ _ _ x _]
     bassdrum  [x _ _ _ x _ _ _]
 
-Each line consists of a voice name (e.g. "hihat") and a pattern to play for that voice. Patterns can be any length
+Each line consists of a voice name (e.g. "closedhihat") and a pattern to play for that voice. Patterns can be any length
 and consist of three possible values separated by spaces. The three valid options are:
 
 - `x` (lowercase X): low-velocity strike
