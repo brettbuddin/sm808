@@ -1,0 +1,4 @@
+# suggestions: tempo=110 beats=3
+closedhihat [_ x _ _ x _ X _ x _ _ x _ x X]
+snaredrum   [x _ _ _ x _ _ x _ x _ x X _ _]
+bassdrum    [X _ _ X _ X _ X _ _ X X _ X _]

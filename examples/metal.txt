@@ -1,0 +1,4 @@
+# suggestions: tempo=120 beats=4
+closedhihat [x _ _ _]
+snaredrum   [_ _ _ x X _ _ _ _ x X X x _ _ X]
+bassdrum    [x x x x x x x x x x x x x x x x]

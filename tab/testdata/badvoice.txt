@@ -1,0 +1,3 @@
+brett     [x _ _ _]
+snaredrum [_ _ _ x X _]
+bassdrum  [x x _]

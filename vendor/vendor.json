@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "p2eC1rSYXToaYLF9Cr5SaTDIXuU=",
+			"path": "github.com/gordonklaus/portaudio",
+			"revision": "2a038c93424fb36d026982db9fd365504a49f566",
+			"revisionTime": "2016-11-16T19:01:28Z"
+		}
+	],
+	"rootPath": "github.com/brettbuddin/sm808"
+}

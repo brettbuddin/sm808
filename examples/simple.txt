@@ -1,0 +1,5 @@
+# suggestions: tempo=130 beats=4
+openhihat   [_ _ _ _ _ x _ _ _ _ _ x _ x _ _]
+closedhihat [_ _ X _ _ _ X _ _ _ X _ _ _ X _]
+snaredrum   [_ _ _ _ X _ _ _ _ _ _ _ X _ _ _]
+bassdrum    [X _ _ _ X _ _ _ X _ _ _ X _ _ _]

@@ -1,0 +1,4 @@
+# ignore me. i'm a comment
+closedhihat [x _ _ _]
+snaredrum   [_ _ _ x X _]
+bassdrum    [x x _]
