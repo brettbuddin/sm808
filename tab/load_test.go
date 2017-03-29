@@ -38,3 +38,8 @@ func TestLoadDuplicateVoice(t *testing.T) {
 	_, err := Load("testdata/duplicatevoice.txt")
 	assert.NotEqual(t, err, nil)
 }
+
+func TestLoadMissingVoiceName(t *testing.T) {
+	_, err := Load("testdata/missingvoicename.txt")
+	assert.NotEqual(t, err, nil)
+}
