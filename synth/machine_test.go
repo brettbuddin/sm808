@@ -7,7 +7,7 @@ import (
 )
 
 func TestMachineStepAdvancment(t *testing.T) {
-	// (60 / 100000bpm) * 44100hz = 264.6
+	// (60 / 100000bpm) * 44100hz = 26.46
 	// We should expect a clock tick every 26 samples.
 
 	bpm := 100000
